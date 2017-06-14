@@ -1,0 +1,1 @@
+main(h,m,n){scanf("%d%d%d",&h,&m,&n);m+=n;h+=m/60;printf("%d %d",h%24,m%60);}

@@ -1,0 +1,25 @@
+a[103][103],n,x,y,i,j,k,s;
+main()
+{
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+scanf("%d %d",&x,&y);
+for(j=x;j<x+10;j++)
+{
+for(k=y;k<y+10;k++)
+{
+a[j+1][k+1]=1;
+}
+}
+}
+for(i=1;i<102;i++)
+{
+for(j=1;j<102;j++)
+{
+if(a[i][j]==1)
+s+=4-(a[i-1][j]+a[i+1][j]+a[i][j-1]+a[i][j+1]);
+}
+}
+printf("%d",s);
+}

@@ -1,0 +1,20 @@
+a[20001],n,i,j,t;
+main()
+{
+    memset(a+1,10001,sizeof(a)-sizeof(int));
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        scanf("%d",&t);
+        for(j=1;j<=i;j++)
+        {
+            if(a[j-1]<=t&&a[j]>=t)
+            {
+                memmove(a+j+1,a+j,sizeof(int)*(i-j+1));
+                a[j]=t;
+                break;
+            }
+        }
+    }
+    printf("%d",a[n/2+n%2]);
+}

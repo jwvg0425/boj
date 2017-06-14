@@ -1,0 +1,1 @@
+n,i,b,t,k,s;e(a,b){return a%b?e(b,a%b):b;}main(){scanf("%d%d%d",&n,&b,&t);k=t-b;s+=k;n--;for(b=t;++i<n;b=t)scanf("%d",&t),k=e(t-b,k),s+=t-b;printf("%d",s/k-n);}

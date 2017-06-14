@@ -1,0 +1,1 @@
+a[1000][1000],i,j;m(a,b){return a>b?a:b;}main(r){for(scanf("%d",&r);i<r;i++)for(j=0;j<=i;)scanf("%d",&a[i][j++]);while(--i+1)for(j=0;j<=i;)a[i][j++]+=m(a[i+1][j],a[i+1][j+1]);printf("%d",a[0][0]);}

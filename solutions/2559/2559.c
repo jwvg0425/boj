@@ -1,0 +1,1 @@
+i,b,p[210001];main(n,k){scanf("%d%d",&n,&k);for(n=~n<<7,i=k;~scanf("%d",++i+p);b>n&&i>=k*2?n=b:0)b+=p[i]-p[i-k];printf("%d",n);}

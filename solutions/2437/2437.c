@@ -1,0 +1,1 @@
+a[1000],i,m,n;c(int*a,int*b){return*a-*b;}main(N){for(scanf("%d",&N);i<N;i++)scanf("%d",a+i);qsort(a,N,4,c);for(i=0;a[i]<m+2&&i<N;m+=a[i++]);printf("%d",m+1);}

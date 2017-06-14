@@ -1,0 +1,24 @@
+a[101][101],n,x,y,i,j,k,s;
+main()
+{
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+scanf("%d %d",&x,&y);
+for(j=x;j<x+10;j++)
+{
+for(k=y;k<y+10;k++)
+{
+a[j][k]=1;
+}
+}
+}
+for(i=0;i<101;i++)
+{
+for(j=0;j<101;j++)
+{
+s+=a[i][j];
+}
+}
+printf("%d",s);
+}

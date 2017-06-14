@@ -1,0 +1,1 @@
+long long a,l;i;main(c){scanf("%d",&c);for(;i++<c;)scanf("%lld %lld",&a,&l),printf("Scenario #%d:\n%lld\n\n",i,(l-a+1)*(a+l)/2);}

@@ -1,0 +1,1 @@
+a[740],s,e,i,c,m,k=100;main(n){for(scanf("%d",&n);n--;){scanf("%d%d",&s,&e);for(i=s/k*60+s%k-600;i<e/k*60+e%k-580;a[i++]=1);}for(i=9;++i<730;)a[i]?c>m?m=c:0,c=0:c++;printf("%d",c>m?c:m);}

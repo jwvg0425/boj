@@ -1,0 +1,1 @@
+n;main(a,b){for(;~scanf("%c",&a);b=a)n+=a-b?10:5;printf("%d",n-10);}

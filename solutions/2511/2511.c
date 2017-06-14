@@ -1,0 +1,1 @@
+a[10],b[10],i,t,x,y;main(){for(i=0;i<10;i++)scanf("%d",a+i);for(i=0;i<10;i++){scanf("%d",&t);if(a[i]>t){b[i]='A';x+=3;}if(t>a[i]){b[i]='B';y+=3;}if(t==a[i]){x+=1;y+=1;b[i]='D';}}printf("%d %d\n",x,y);if(x>y){printf("A");return;}if(y>x){printf("B");return;}for(i=9;i>=0;i--){if(b[i]!='D'){printf("%c",b[i]);return;}}printf("D");}

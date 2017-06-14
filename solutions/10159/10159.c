@@ -1,0 +1,2 @@
+#define F(t,x) for(t=0;n-t++;x)
+e[101][101],i,j,k;main(n){scanf("%d%d",&n,e);for(;i++<**e;e[j][k]=1)scanf("%d%d",&j,&k);F(k,e[k][k]=1)F(i,0)F(j,0)e[i][j]+=e[i][k]*e[k][j];k=0;F(i,k=!printf("%d\n",k))F(j,0)e[i][j]+e[j][i]?0:k++;}

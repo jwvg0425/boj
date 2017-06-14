@@ -1,0 +1,12 @@
+m,a,b,t;
+main()
+{
+    for(;~scanf("%d%d",&a,&b);)
+    {
+        t-=a;
+        t+=b;
+        if(t>m)
+            m=t;
+    }
+    printf("%d",m);
+}
