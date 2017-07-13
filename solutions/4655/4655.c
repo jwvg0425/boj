@@ -1,0 +1,1 @@
+main(n){double a,b;for(;~scanf("%lf",&a);b=0)if(a!=0)for(n=2;b<a;n++)b+=1.0/n,(b>=a)?printf("%d card(s)\n",n-1):0;}
